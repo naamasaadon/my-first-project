@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../דפי פרויקט/login.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="board" >
+        <button id="showLogin" onclick="showLogIn()">התחברות</button>
+        <button id="showSignUp" onclick="showSignUp()">הרשמה</button>
+
+        <form id="logInForm">
+            <label for="name">:שם</label>
+            <div><input type="text" id="nameLog" required></div>
+            <label for="password">:סיסמה</label>
+            <div><input type="password" id="passwordLog" required></div>
+            <div id="messageLog"></div>
+            <div><button type="submit" id="log">התחברות</button></div>
+        </form>
+        <form id="signUpForm">
+            <label for="name">:שם</label>
+            <div><input type="text" id="nameSign" required></div>
+            <label for="password">:סיסמה</label>
+            <div><input type="password" id="passwordSign" required></div>
+            <div id="messageSign"></div>
+            <div><button type="submit" id="sign">הרשמה</button></div>
+        </form>
+    </div>
+
+        
+</form>
+<button id="homeButton" onclick="location.href='../project.html'">לדף הבית</button>
+<script src="../דפי פרויקט/login.js"></script>
+</body>
+</html>

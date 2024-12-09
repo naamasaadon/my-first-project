@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../נעמה ותמי -םרויקט גמר/דפי פרויקט/project.css">
+    <title>בול פגיעה</title>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body dir="rtl">
+    <!-- דיב שמכיל בתוכו את כל האלמנטים -->
+    <div id="container">
+                  <!-- דיב של שלוש כפתורי בחירות -->
+   <div id="option">
+          <a href="../נעמה ותמי -םרויקט גמר/דפי פרויקט/instructions.html"><button class="optionButton" >הוראות</button></a>  
+          <a href="../נעמה ותמי -םרויקט גמר/דפי פרויקט/login.html"><button class="optionButton" >התחברות/הרשמה</button></a>
+           <a href="project.html"><button class="optionButton" >משחק חדש</button></a> 
+        </div>
+        <!-- פלטת צבעים לבחירת ניחוש -->
+        <div id="colorPalette">
+            <button class="colorButton" style="background-color: rgb(252, 16, 16);"></button> 
+            <button class="colorButton" style="background-color: rgb(48, 48, 197);"></button>
+            <button class="colorButton" style="background-color: rgb(72, 226, 72);"></button>
+            <button class="colorButton" style="background-color: rgb(245, 245, 29);"></button>
+            <button class="colorButton" style="background-color: rgba(244, 100, 17, 0.944);"></button>
+            <button class="colorButton" style="background-color: rgb(239, 47, 146);"></button>
+            <button class="colorButton" style="background-color: rgb(120, 22, 145);"></button>
+            <button class="colorButton" style="background-color: rgb(63, 248, 248);"></button> 
+        </div>
+        <!-- דיב שמכיל בתוכו את לוח המשחק:שבע שורות ובכל שורה ארבע כפתורים לניחוש וארבע לציון -->
+        <div id="grid">
+            <div class="row">
+                <button class="small-button"id="104"></button>
+                <button class="small-button"id="103"></button>
+                <button class="small-button"id="102"></button>
+                <button class="small-button"id="101"></button>
+                <button class="button" id="1"></button>
+                <button class="button" id="2"></button>
+                <button class="button" id="3"></button>
+                <button class="button" id="4"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="105"></button>
+                <button class="small-button"id="108"></button>
+                <button class="small-button"id="107"></button>
+                <button class="small-button"id="106"></button>
+                <button class="button" id="5"></button>
+                <button class="button"id="6"></button>
+                <button class="button"id="7"></button>
+                <button class="button"id="8"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="112"></button>
+                <button class="small-button"id="111"></button>
+                <button class="small-button"id="109"></button>
+                <button class="small-button"id="110"></button>
+                <button class="button"id="9"></button>
+                <button class="button"id="10"></button>
+                <button class="button"id="11"></button>
+                <button class="button"id="12"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="116"></button>
+                <button class="small-button"id="114"></button>
+                <button class="small-button"id="115"></button>
+                <button class="small-button"id="113"></button>
+                <button class="button"id="13"></button>
+                <button class="button"id="14"></button>
+                <button class="button"id="15"></button>
+                <button class="button"id="16"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="117"></button>
+                <button class="small-button"id="119"></button>
+                <button class="small-button"id="118"></button>
+                <button class="small-button"id="120"></button>
+                <button class="button"id="17"></button>
+                <button class="button"id="18"></button>
+                <button class="button"id="19"></button>
+                <button class="button"id="20"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="123"></button>
+                <button class="small-button"id="124"></button>
+                <button class="small-button"id="122"></button>
+                <button class="small-button"id="121"></button>
+                <button class="button"id="21"></button>
+                <button class="button"id="22"></button>
+                <button class="button"id="23"></button>
+                <button class="button"id="24"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="126"></button>
+                <button class="small-button"id="127"></button>
+                <button class="small-button"id="125"></button>
+                <button class="small-button"id="128"></button>
+                <button class="button"id="25"></button>
+                <button class="button"id="26"></button>
+                <button class="button"id="27"></button>
+                <button class="button"id="28"></button>
+            </div>
+            <div class="row">
+                <button class="small-button"id="130"></button>
+                <button class="small-button"id="129"></button>
+                <button class="small-button"id="131"></button>
+                <button class="small-button"id="132"></button>
+                <button class="button"id="29"></button>
+                <button class="button"id="30"></button>
+                <button class="button"id="31"></button>
+                <button class="button"id="32"></button>
+            </div>
+        </div>
+    </div>
+    <div id="timer">Time left: 60s</div>
+    <audio id="clapSound" src="../נעמה ותמי -םרויקט גמר/תמונות/כפיים נלהבות.WAV" preload="auto"></audio>
+    <script src="../נעמה ותמי -םרויקט גמר/דפי פרויקט/project.js"></script>
+</body>
+</html>

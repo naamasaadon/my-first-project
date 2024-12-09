@@ -1,0 +1,86 @@
+body {
+    background-image: url("../תמונות/7.jpg");
+    background-size: cover;
+}
+
+input {
+    border-bottom: 3px solid rgb(35, 98, 121);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    background-color: transparent;
+    width: 90%;
+    height: 40px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: large;
+}
+
+#log,
+#sign {
+    width: 92%;
+    height: 35px;
+    color: white;
+    background-color: rgb(35, 98, 121);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#helpBody {
+    margin: 0% 30% 0% 30%;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#messageLog,
+#messageSign {
+    font-size: 15px;
+    color: white;
+}
+
+#showLogin,
+#showSignUp {
+    width: 45%;
+    height: 35px;
+    color: white;
+    background-color: rgb(35, 98, 121);
+    font-weight: bold;
+}
+
+#board {
+    height: 80%;
+    width: 30%;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+    margin-top: 8.5%
+    ;
+}
+
+img {
+    height: 100px;
+    margin-right: 50%;
+}
+#homeButton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgb(35, 98, 121);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
